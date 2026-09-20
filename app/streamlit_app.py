@@ -86,7 +86,10 @@ if menu == "📋 계약서 종합 사전 검토":
     st.markdown('<div class="sub-header">계약서의 모든 조항을 분석하여 독소 조항 및 고위험 요소를 High/Medium/Low로 자동 분류합니다.</div>', unsafe_allow_html=True)
 
     contract_docs = df_docs[df_docs["category"] == "contract"].to_dict("records")
-    doc_options = {f"{d['document_id']} - {d['document_title']} ({d['filename']})": d["document_id"] for d in contract_docs}
+    doc_options = {
+        f"{d['document_id']} - {d.get('title') or d.get('document_title', '')} ({d.get('filename', '')})": d["document_id"]
+        for d in contract_docs
+    }
     
     selected_doc_label = st.selectbox("검토 대상 계약서 선택", list(doc_options.keys()))
     selected_doc_id = doc_options[selected_doc_label]
@@ -132,7 +135,10 @@ elif menu == "🔄 규정/보안 교차 검증":
     st.markdown('<div class="sub-header">계약서의 주요 의무 조건이 사내 규정(POL) 및 보안 가이드(SEC)와 충돌하는지 자동 대조합니다.</div>', unsafe_allow_html=True)
 
     contract_docs = df_docs[df_docs["category"] == "contract"].to_dict("records")
-    doc_options = {f"{d['document_id']} - {d['document_title']}": d["document_id"] for d in contract_docs}
+    doc_options = {
+        f"{d['document_id']} - {d.get('title') or d.get('document_title', '')} ({d.get('filename', '')})": d["document_id"]
+        for d in contract_docs
+    }
     selected_doc_label = st.selectbox("교차 검증 대상 계약서 선택", list(doc_options.keys()))
     selected_doc_id = doc_options[selected_doc_label]
 

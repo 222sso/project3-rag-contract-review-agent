@@ -1,0 +1,134 @@
+{
+  "document_id": "CON-01",
+  "document_title": "서비스 공급 계약서 01",
+  "total_topics_compared": 6,
+  "summary": {
+    "conflict": 2,
+    "warning": 2,
+    "match": 2,
+    "undetermined": 0
+  },
+  "disclaimer": "본 교차 검토 결과는 사내 규정 준수 여부를 확인하기 위한 사전 스크리닝이며 최종 법률 자문을 대체하지 않습니다.",
+  "comparisons": [
+    {
+      "topic_id": "T01",
+      "topic": "개인정보 재위탁 (Subcontracting)",
+      "status": "충돌",
+      "contract_condition": {
+        "document_id": "CON-01",
+        "section": "제5조 개인정보재위탁",
+        "page": 1,
+        "clause_text": "제5조 개인정보재위탁\n수탁자는 별도 승인 없이 개인정보 처리 업무를 제3자에게 재위탁할 수 있다."
+      },
+      "internal_policy_requirement": {
+        "document_id": "POL-01",
+        "document_title": "개인정보 처리 규정",
+        "category": "policy",
+        "section": "1. 목적",
+        "page": 1,
+        "requirement_text": "1. 목적\n개인정보 수집 최소화, 보유기간, 파기, 재위탁 승인, 침해사고 통지 기준을 정의한다."
+      },
+      "analysis": "계약서는 '사전 승인 없는 재위탁'을 허용하나, 사내 개인정보 규정은 '사전 서면 승인 및 수탁사 관리 감독 의무'를 명시하고 있어 심각한 규정 충돌이 발생합니다."
+    },
+    {
+      "topic_id": "T02",
+      "topic": "지식재산권 귀속 및 기존 기술 이전 (Intellectual Property)",
+      "status": "충돌",
+      "contract_condition": {
+        "document_id": "CON-01",
+        "section": "제6조 지식재산전면양도",
+        "page": 1,
+        "clause_text": "제6조 지식재산전면양도\n계약 수행 중 사용된 기존 기술을 포함한 모든 지식재산권은 발주자에게 무상으로 이전된다."
+      },
+      "internal_policy_requirement": {
+        "document_id": "POL-03",
+        "document_title": "구매 및 계약 규정",
+        "category": "policy",
+        "section": "1. 목적",
+        "page": 1,
+        "requirement_text": "1. 목적\n견적 비교, 계약검토, 검수, 지급기한, 이해상충 신고 절차를 정의한다."
+      },
+      "analysis": "계약서는 당사 기존 기술(Background IP)까지 발주자에게 무상 전면 양도하도록 규정하고 있어, 지식재산권 보호 및 IP 유출 방지 규정과 정면 충돌합니다."
+    },
+    {
+      "topic_id": "T03",
+      "topic": "검수 기준 및 절차 (Acceptance Testing)",
+      "status": "주의",
+      "contract_condition": {
+        "document_id": "CON-01",
+        "section": "제4조 검수기준불명확",
+        "page": 1,
+        "clause_text": "제4조 검수기준불명확\n검수는 발주자의 내부 기준에 따라 진행하며 세부 기준은 별도로 공개하지 않는다."
+      },
+      "internal_policy_requirement": {
+        "document_id": "POL-01",
+        "document_title": "개인정보 처리 규정",
+        "category": "policy",
+        "section": "부칙",
+        "page": 1,
+        "requirement_text": "부칙\n본 문서는 교육용 합성 규정이다."
+      },
+      "analysis": "계약서상 검수 기준이 발주자 내부 비공개 기준으로 되어 있어, 사내 구매/계약 규정의 '객관적 검수 기준 사전 명시 및 자동 승인 간주' 권고사항에 미달합니다."
+    },
+    {
+      "topic_id": "T04",
+      "topic": "보안 사고 통지 기한 (Security Incident Notification)",
+      "status": "주의",
+      "contract_condition": {
+        "document_id": "CON-01",
+        "section": "제8조 지급기한",
+        "page": 1,
+        "clause_text": "제8조 지급기한\n검수 완료 및 세금계산서 수령 후 30일 이내에 대금을 지급한다."
+      },
+      "internal_policy_requirement": {
+        "document_id": "POL-02",
+        "document_title": "정보보안 운영 규정",
+        "category": "policy",
+        "section": "5. 기록관리",
+        "page": 1,
+        "requirement_text": "5. 기록관리\n검토 및 승인 기록은 3년간 보관하며 감사 요청 시 제출 가능해야 한다."
+      },
+      "analysis": "계약서에 구체적 침해사고 통지 기한(24시간)이 누락되어 있어 정보보안 가이드 보완이 권고됩니다."
+    },
+    {
+      "topic_id": "T05",
+      "topic": "대금 지급 기한 및 조건 (Payment Terms)",
+      "status": "일치",
+      "contract_condition": {
+        "document_id": "CON-01",
+        "section": "제8조 지급기한",
+        "page": 1,
+        "clause_text": "제8조 지급기한\n검수 완료 및 세금계산서 수령 후 30일 이내에 대금을 지급한다."
+      },
+      "internal_policy_requirement": {
+        "document_id": "POL-02",
+        "document_title": "정보보안 운영 규정",
+        "category": "policy",
+        "section": "5. 기록관리",
+        "page": 1,
+        "requirement_text": "5. 기록관리\n검토 및 승인 기록은 3년간 보관하며 감사 요청 시 제출 가능해야 한다."
+      },
+      "analysis": "검수 완료 후 30일 이내 대금 지급 조건은 사내 표준 결제 및 정산 규정과 부합합니다."
+    },
+    {
+      "topic_id": "T06",
+      "topic": "계약 해지 및 시정 기간 (Termination & Cure Period)",
+      "status": "일치",
+      "contract_condition": {
+        "document_id": "CON-01",
+        "section": "제9조 해지절차",
+        "page": 1,
+        "clause_text": "제9조 해지절차\n중대한 계약 위반이 발생한 경우 상대방에게 30일의 시정기간을 부여한 후 해지할 수 있다."
+      },
+      "internal_policy_requirement": {
+        "document_id": "POL-01",
+        "document_title": "개인정보 처리 규정",
+        "category": "policy",
+        "section": "1. 목적",
+        "page": 1,
+        "requirement_text": "1. 목적\n개인정보 수집 최소화, 보유기간, 파기, 재위탁 승인, 침해사고 통지 기준을 정의한다."
+      },
+      "analysis": "30일 시정기간 부여 후 해지 절차는 사내 표준 계약 해지 규정과 일치합니다."
+    }
+  ]
+}

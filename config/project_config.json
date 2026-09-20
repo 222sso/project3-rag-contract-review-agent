@@ -1,0 +1,18 @@
+{
+  "project_name": "project3-rag-contract-review-agent",
+  "embedding_model": "gemini-embedding-2",
+  "embedding_dimension": 768,
+  "chunking": {
+    "mode": "hierarchical",
+    "parent_target_chars": 2400,
+    "child_target_chars": 700,
+    "child_overlap_chars": 120
+  },
+  "retrieval": {
+    "top_k": 8,
+    "similarity": "cosine",
+    "use_metadata_filter": true
+  },
+  "storage_bucket": "rag-documents",
+  "disclaimer": "교육용 사전 스크리닝이며 최종 법률 자문을 대체하지 않음"
+}

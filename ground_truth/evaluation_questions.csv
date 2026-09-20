@@ -1,0 +1,81 @@
+﻿question_id,question_type,target_document,question,expected_behavior
+Q001,contract_review,contract_01.pdf,자동갱신 또는 장기 해지통보 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q002,contract_review,contract_02.pdf,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q003,contract_review,contract_03.pdf,손해배상 책임에 상한이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q004,contract_review,contract_04.pdf,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,문서명과 조항 근거를 반드시 포함
+Q005,contract_review,contract_05.pdf,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,문서명과 조항 근거를 반드시 포함
+Q006,contract_review,contract_06.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q007,contract_review,contract_07.pdf,손해배상 책임에 상한이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q008,contract_review,contract_08.pdf,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q009,contract_review,contract_09.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q010,contract_review,contract_10.pdf,손해배상 책임에 상한이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q011,contract_review,contract_11.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q012,contract_review,contract_12.pdf,자동갱신 또는 장기 해지통보 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q013,contract_review,contract_13.pdf,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,문서명과 조항 근거를 반드시 포함
+Q014,contract_review,contract_14.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q015,contract_review,contract_15.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q016,contract_review,contract_16.pdf,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q017,contract_review,contract_17.pdf,자동갱신 또는 장기 해지통보 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q018,contract_review,contract_18.pdf,자동갱신 또는 장기 해지통보 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q019,contract_review,contract_19.pdf,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,문서명과 조항 근거를 반드시 포함
+Q020,contract_review,contract_20.pdf,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q021,contract_review,contract_21.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q022,contract_review,contract_22.pdf,손해배상 책임에 상한이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q023,contract_review,contract_23.pdf,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q024,contract_review,contract_24.pdf,자동갱신 또는 장기 해지통보 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q025,contract_review,contract_25.pdf,손해배상 책임에 상한이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q026,contract_review,contract_01.pdf,손해배상 책임에 상한이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q027,contract_review,contract_02.pdf,손해배상 책임에 상한이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q028,contract_review,contract_03.pdf,자동갱신 또는 장기 해지통보 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q029,contract_review,contract_04.pdf,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,문서명과 조항 근거를 반드시 포함
+Q030,contract_review,contract_05.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q031,contract_review,contract_06.pdf,손해배상 책임에 상한이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q032,contract_review,contract_07.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q033,contract_review,contract_08.pdf,손해배상 책임에 상한이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q034,contract_review,contract_09.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q035,contract_review,contract_10.pdf,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,문서명과 조항 근거를 반드시 포함
+Q036,contract_review,contract_11.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q037,contract_review,contract_12.pdf,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,문서명과 조항 근거를 반드시 포함
+Q038,contract_review,contract_13.pdf,자동갱신 또는 장기 해지통보 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q039,contract_review,contract_14.pdf,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,문서명과 조항 근거를 반드시 포함
+Q040,contract_review,contract_15.pdf,지식재산권 귀속 조건을 요약해줘.,문서명과 조항 근거를 반드시 포함
+Q041,policy_qa,policy_01.pdf,위반 발생 시 처리 절차를 알려줘.,문서명과 조항 근거를 반드시 포함
+Q042,policy_qa,policy_02.pdf,예외승인에 필요한 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q043,policy_qa,policy_03.pdf,기록 보관 기준을 알려줘.,문서명과 조항 근거를 반드시 포함
+Q044,policy_qa,policy_04.pdf,위반 발생 시 처리 절차를 알려줘.,문서명과 조항 근거를 반드시 포함
+Q045,policy_qa,policy_05.pdf,위반 발생 시 처리 절차를 알려줘.,문서명과 조항 근거를 반드시 포함
+Q046,policy_qa,policy_06.pdf,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,문서명과 조항 근거를 반드시 포함
+Q047,policy_qa,policy_07.pdf,예외승인에 필요한 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q048,policy_qa,policy_08.pdf,예외승인에 필요한 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q049,policy_qa,policy_09.pdf,예외승인에 필요한 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q050,policy_qa,policy_10.pdf,위반 발생 시 처리 절차를 알려줘.,문서명과 조항 근거를 반드시 포함
+Q051,policy_qa,policy_11.pdf,예외승인에 필요한 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q052,policy_qa,policy_12.pdf,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,문서명과 조항 근거를 반드시 포함
+Q053,policy_qa,policy_13.pdf,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,문서명과 조항 근거를 반드시 포함
+Q054,policy_qa,policy_14.pdf,예외승인에 필요한 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q055,policy_qa,policy_15.pdf,예외승인에 필요한 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q056,policy_qa,policy_01.pdf,예외승인에 필요한 조건을 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q057,policy_qa,policy_02.pdf,위반 발생 시 처리 절차를 알려줘.,문서명과 조항 근거를 반드시 포함
+Q058,policy_qa,policy_03.pdf,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,문서명과 조항 근거를 반드시 포함
+Q059,policy_qa,policy_04.pdf,기록 보관 기준을 알려줘.,문서명과 조항 근거를 반드시 포함
+Q060,policy_qa,policy_05.pdf,위반 발생 시 처리 절차를 알려줘.,문서명과 조항 근거를 반드시 포함
+Q061,cross_check,multiple,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q062,cross_check,multiple,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q063,cross_check,multiple,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,문서명과 조항 근거를 반드시 포함
+Q064,cross_check,multiple,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q065,cross_check,multiple,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q066,cross_check,multiple,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,문서명과 조항 근거를 반드시 포함
+Q067,cross_check,multiple,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,문서명과 조항 근거를 반드시 포함
+Q068,cross_check,multiple,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,문서명과 조항 근거를 반드시 포함
+Q069,cross_check,multiple,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,문서명과 조항 근거를 반드시 포함
+Q070,cross_check,multiple,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,문서명과 조항 근거를 반드시 포함
+Q071,cross_check,multiple,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q072,cross_check,multiple,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q073,cross_check,multiple,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q074,cross_check,multiple,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,문서명과 조항 근거를 반드시 포함
+Q075,cross_check,multiple,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,문서명과 조항 근거를 반드시 포함
+Q076,cross_check,multiple,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,문서명과 조항 근거를 반드시 포함
+Q077,cross_check,multiple,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,문서명과 조항 근거를 반드시 포함
+Q078,cross_check,multiple,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,문서명과 조항 근거를 반드시 포함
+Q079,cross_check,multiple,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,문서명과 조항 근거를 반드시 포함
+Q080,cross_check,multiple,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,문서명과 조항 근거를 반드시 포함

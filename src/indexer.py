@@ -32,14 +32,14 @@ def load_chunks() -> list[dict[str, Any]]:
     return data.get("chunks", [])
 
 
-def index_all_chunks(batch_size: int = BATCH_SIZE) -> dict[str, Any]:
+def index_all_chunks(batch_size: int = BATCH_SIZE, force: bool = False) -> dict[str, Any]:
     """Embeds all chunks in batches and stores them into document_chunks table."""
     client = get_supabase_client(use_service_role=True)
     embedder = GeminiEmbedder()
 
     chunks = load_chunks()
     total_chunks = len(chunks)
-    logger.info("Loaded %d chunks for indexing (batch_size=%d).", total_chunks, batch_size)
+    logger.info("Loaded %d chunks for indexing (batch_size=%d, force=%s).", total_chunks, batch_size, force)
 
     # 1. Verification of connection and sample 3 embeddings
     logger.info("Verifying embedding generation with first 3 sample chunks...")
@@ -53,22 +53,28 @@ def index_all_chunks(batch_size: int = BATCH_SIZE) -> dict[str, Any]:
             raise ValueError(f"Sample {i} contains null embedding values")
     logger.info("Sample verification passed: 3 embeddings generated with dimension 768.")
 
-    # 2. Check existing chunks in database to prevent duplicates
-    existing_records = client.table("document_chunks").select("document_id, parent_section, child_index").execute()
-    existing_keys = set()
-    for row in (existing_records.data or []):
-        existing_keys.add((row["document_id"], row.get("parent_section"), row["child_index"]))
-    logger.info("Found %d existing records in document_chunks table.", len(existing_keys))
+    if force:
+        logger.info("Force re-indexing: clearing previous document_chunks rows...")
+        client.table("document_chunks").delete().neq("id", 0).execute()
+        chunks_to_process = chunks
+        skipped_count = 0
+    else:
+        # 2. Check existing chunks in database to prevent duplicates
+        existing_records = client.table("document_chunks").select("document_id, parent_section, child_index").execute()
+        existing_keys = set()
+        for row in (existing_records.data or []):
+            existing_keys.add((row["document_id"], row.get("parent_section"), row["child_index"]))
+        logger.info("Found %d existing records in document_chunks table.", len(existing_keys))
 
-    # Filter out chunks already indexed
-    chunks_to_process = []
-    skipped_count = 0
-    for c in chunks:
-        key = (c["document_id"], c.get("parent_section"), c["child_index"])
-        if key in existing_keys:
-            skipped_count += 1
-        else:
-            chunks_to_process.append(c)
+        # Filter out chunks already indexed
+        chunks_to_process = []
+        skipped_count = 0
+        for c in chunks:
+            key = (c["document_id"], c.get("parent_section"), c["child_index"])
+            if key in existing_keys:
+                skipped_count += 1
+            else:
+                chunks_to_process.append(c)
 
     logger.info("%d chunks already indexed (skipped). %d chunks to index.", skipped_count, len(chunks_to_process))
 

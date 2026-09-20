@@ -1,81 +1,81 @@
 ﻿question_id,question_type,target_document,target_doc_id,question,retrieval_hit,precision,recall,f1,risk_level,confidence,citation_count,is_success,failure_reason,cited_sections
-Q001,contract_review,contract_01.pdf,CON-01,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,LOW,High,1,True,,제9조 해지절차
-Q002,contract_review,contract_02.pdf,CON-02,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q003,contract_review,contract_03.pdf,CON-03,손해배상 책임에 상한이 있는지 확인해줘.,1,1.0,1.0,1.0,LOW,High,1,True,,제10조 책임상한
-Q004,contract_review,contract_04.pdf,CON-04,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제5조 검수기준불명확; 제7조 일방해지
-Q005,contract_review,contract_05.pdf,CON-05,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,1.0,1.0,1.0,MEDIUM,High,2,True,,제5조 준거법불리; 제6조 자동갱신
-Q006,contract_review,contract_06.pdf,CON-06,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,LOW,High,1,True,,제7조 기존IP보호
-Q007,contract_review,contract_07.pdf,CON-07,손해배상 책임에 상한이 있는지 확인해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q008,contract_review,contract_08.pdf,CON-08,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,0,1.0,1.0,1.0,HIGH,High,1,True,,제4조 개인정보재위탁
-Q009,contract_review,contract_09.pdf,CON-09,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제6조 지식재산전면양도; 제10조 기존IP보호
-Q010,contract_review,contract_10.pdf,CON-10,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,None,0,True,,
-Q011,contract_review,contract_11.pdf,CON-11,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제7조 지식재산전면양도; 제9조 기존IP보호
-Q012,contract_review,contract_12.pdf,CON-12,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,LOW,High,3,True,,제9조 해지절차; 제6조 보안사고통지지연; 제10조 책임상한
-Q013,contract_review,contract_13.pdf,CON-13,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,1,1.0,1.0,1.0,MEDIUM,High,1,True,,제6조 검수기준불명확
-Q014,contract_review,contract_14.pdf,CON-14,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제7조 지식재산전면양도; 제10조 기존IP보호
-Q015,contract_review,contract_15.pdf,CON-15,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,LOW,High,1,True,,제9조 기존IP보호
+Q001,contract_review,contract_01.pdf,CON-01,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,MEDIUM,High,8,True,,제7조 자동갱신; 제7조 자동갱신; 제6조 자동갱신; 제6조 자동갱신; 제6조 자동갱신; 제6조 자동갱신; 제5조 자동갱신; 제5조 자동갱신
+Q002,contract_review,contract_02.pdf,CON-02,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,High,3,True,,제11조 재위탁승인; 제9조 재위탁승인; 제8조 재위탁승인
+Q003,contract_review,contract_03.pdf,CON-03,손해배상 책임에 상한이 있는지 확인해줘.,1,1.0,1.0,1.0,INFO,High,8,True,,제8조 책임상한; 제8조 책임상한; 제11조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한
+Q004,contract_review,contract_04.pdf,CON-04,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,0.6667,1.0,0.8,HIGH,High,3,True,,3. 위험 등급; 제6조 과도한지체상금; 제7조 일방해지
+Q005,contract_review,contract_05.pdf,CON-05,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,1,0.5,1.0,0.6667,HIGH,Medium,2,True,,3. 위험 등급; 제4조 지급기한장기
+Q006,contract_review,contract_06.pdf,CON-06,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,INFO,High,2,True,,제7조 기존IP보호; 제9조 지식재산전면양도
+Q007,contract_review,contract_07.pdf,CON-07,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,High,8,True,,제8조 책임상한; 제8조 책임상한; 제11조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한
+Q008,contract_review,contract_08.pdf,CON-08,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,0,1.0,1.0,1.0,MEDIUM,High,2,True,,제4조 개인정보재위탁; 제11조 재위탁승인
+Q009,contract_review,contract_09.pdf,CON-09,지식재산권 귀속 조건을 요약해줘.,1,1.0,1.0,1.0,HIGH,High,1,True,,제9조 지식재산전면양도
+Q010,contract_review,contract_10.pdf,CON-10,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,High,2,True,,제8조 책임상한; 제8조 책임상한
+Q011,contract_review,contract_11.pdf,CON-11,지식재산권 귀속 조건을 요약해줘.,1,1.0,1.0,1.0,HIGH,High,8,True,,제9조 지식재산전면양도; 제6조 지식재산전면양도; 제6조 지식재산전면양도; 제5조 지식재산전면양도; 제7조 지식재산전면양도; 제7조 지식재산전면양도; 제7조 지식재산전면양도; 제8조 지식재산전면양도
+Q012,contract_review,contract_12.pdf,CON-12,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,INFO,High,3,True,,제7조 자동갱신; 제6조 자동갱신; 제5조 자동갱신
+Q013,contract_review,contract_13.pdf,CON-13,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,0.5,1.0,0.6667,HIGH,High,2,True,,3. 위험 등급; 제4조 일방해지
+Q014,contract_review,contract_14.pdf,CON-14,지식재산권 귀속 조건을 요약해줘.,1,1.0,1.0,1.0,HIGH,High,2,True,,제9조 지식재산전면양도; 제6조 지식재산전면양도
+Q015,contract_review,contract_15.pdf,CON-15,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,INFO,High,2,True,,제9조 기존IP보호; 제9조 지식재산전면양도
 Q016,contract_review,contract_16.pdf,CON-16,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,None,0,True,,
-Q017,contract_review,contract_17.pdf,CON-17,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,HIGH,High,3,True,,제5조 자동갱신; 제4조 지급기한장기; 제6조 일방해지
-Q018,contract_review,contract_18.pdf,CON-18,자동갱신 또는 장기 해지통보 조건을 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q019,contract_review,contract_19.pdf,CON-19,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,1.0,1.0,1.0,MEDIUM,High,1,True,,제5조 자동갱신
-Q020,contract_review,contract_20.pdf,CON-20,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,None,0,True,,
-Q021,contract_review,contract_21.pdf,CON-21,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,HIGH,High,1,True,,제7조 지식재산전면양도
-Q022,contract_review,contract_22.pdf,CON-22,손해배상 책임에 상한이 있는지 확인해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q023,contract_review,contract_23.pdf,CON-23,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제6조 개인정보재위탁; 제11조 재위탁승인
-Q024,contract_review,contract_24.pdf,CON-24,자동갱신 또는 장기 해지통보 조건을 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q025,contract_review,contract_25.pdf,CON-25,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,None,0,True,,
-Q026,contract_review,contract_01.pdf,CON-01,손해배상 책임에 상한이 있는지 확인해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q027,contract_review,contract_02.pdf,CON-02,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,LOW,High,1,True,,제8조 책임무제한
-Q028,contract_review,contract_03.pdf,CON-03,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,MEDIUM,High,3,True,,제7조 자동갱신; 제12조 해지절차; 제6조 지급기한장기
-Q029,contract_review,contract_04.pdf,CON-04,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제5조 검수기준불명확; 제7조 일방해지
-Q030,contract_review,contract_05.pdf,CON-05,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,INFO,None,0,True,,
-Q031,contract_review,contract_06.pdf,CON-06,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,LOW,High,2,True,,제8조 책임상한; 제4조 책임무제한
-Q032,contract_review,contract_07.pdf,CON-07,지식재산권 귀속 조건을 요약해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q033,contract_review,contract_08.pdf,CON-08,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,LOW,High,1,True,,제7조 책임무제한
-Q034,contract_review,contract_09.pdf,CON-09,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제6조 지식재산전면양도; 제10조 기존IP보호
-Q035,contract_review,contract_10.pdf,CON-10,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제8조 개인정보재위탁; 제10조 재위탁승인
-Q036,contract_review,contract_11.pdf,CON-11,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제7조 지식재산전면양도; 제9조 기존IP보호
-Q037,contract_review,contract_12.pdf,CON-12,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,1.0,1.0,1.0,INFO,None,0,True,,
-Q038,contract_review,contract_13.pdf,CON-13,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,HIGH,High,2,True,,제4조 일방해지; 제10조 책임상한
-Q039,contract_review,contract_14.pdf,CON-14,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,1.0,1.0,1.0,HIGH,High,3,True,,제5조 자동갱신; 제6조 준거법불리; 제7조 지식재산전면양도
-Q040,contract_review,contract_15.pdf,CON-15,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,LOW,High,1,True,,제9조 기존IP보호
-Q041,policy_qa,policy_01.pdf,POL-01,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,LOW,High,2,True,,6. 위반조치; [문서 서두]
-Q042,policy_qa,policy_02.pdf,POL-02,예외승인에 필요한 조건을 찾아줘.,1,1.0,1.0,1.0,LOW,High,2,True,,4. 예외관리; 6. 위반조치
-Q043,policy_qa,policy_03.pdf,POL-03,기록 보관 기준을 알려줘.,1,1.0,1.0,1.0,LOW,High,3,True,,5. 기록관리; 3. 주요 기준; 4. 예외관리
-Q044,policy_qa,policy_04.pdf,POL-04,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,LOW,High,2,True,,6. 위반조치; 1. 목적
-Q045,policy_qa,policy_05.pdf,POL-05,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,LOW,High,1,True,,6. 위반조치
-Q046,policy_qa,policy_06.pdf,POL-06,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,1,1.0,1.0,1.0,LOW,High,1,True,,6. 위반조치
-Q047,policy_qa,policy_07.pdf,POL-07,예외승인에 필요한 조건을 찾아줘.,0,1.0,1.0,1.0,LOW,High,2,True,,4. 예외관리; 6. 위반조치
-Q048,policy_qa,policy_08.pdf,POL-08,예외승인에 필요한 조건을 찾아줘.,0,1.0,1.0,1.0,LOW,High,2,True,,4. 예외관리; 6. 위반조치
-Q049,policy_qa,policy_09.pdf,POL-09,예외승인에 필요한 조건을 찾아줘.,0,1.0,1.0,1.0,LOW,High,2,True,,4. 예외관리; 6. 위반조치
-Q050,policy_qa,policy_10.pdf,POL-10,위반 발생 시 처리 절차를 알려줘.,0,1.0,1.0,1.0,LOW,High,1,True,,6. 위반조치
-Q051,policy_qa,policy_11.pdf,POL-11,예외승인에 필요한 조건을 찾아줘.,0,1.0,1.0,1.0,LOW,High,2,True,,4. 예외관리; 6. 위반조치
-Q052,policy_qa,policy_12.pdf,POL-12,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,0,1.0,1.0,1.0,LOW,High,2,True,,3. 주요 기준; 6. 위반조치
-Q053,policy_qa,policy_13.pdf,POL-13,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,0,1.0,1.0,1.0,LOW,High,2,True,,3. 주요 기준; 6. 위반조치
-Q054,policy_qa,policy_14.pdf,POL-14,예외승인에 필요한 조건을 찾아줘.,0,1.0,1.0,1.0,LOW,High,2,True,,4. 예외관리; 6. 위반조치
-Q055,policy_qa,policy_15.pdf,POL-15,예외승인에 필요한 조건을 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q056,policy_qa,policy_01.pdf,POL-01,예외승인에 필요한 조건을 찾아줘.,1,1.0,1.0,1.0,LOW,High,2,True,,4. 예외관리; 6. 위반조치
-Q057,policy_qa,policy_02.pdf,POL-02,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,LOW,High,2,True,,6. 위반조치; 1. 목적
-Q058,policy_qa,policy_03.pdf,POL-03,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,1,1.0,1.0,1.0,LOW,High,1,True,,6. 위반조치
-Q059,policy_qa,policy_04.pdf,POL-04,기록 보관 기준을 알려줘.,1,1.0,1.0,1.0,LOW,High,3,True,,5. 기록관리; 3. 주요 기준; 4. 예외관리
-Q060,policy_qa,policy_05.pdf,POL-05,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,LOW,High,1,True,,6. 위반조치
+Q017,contract_review,contract_17.pdf,CON-17,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,MEDIUM,High,1,True,,제5조 자동갱신
+Q018,contract_review,contract_18.pdf,CON-18,자동갱신 또는 장기 해지통보 조건을 찾아줘.,1,1.0,1.0,1.0,INFO,High,8,True,,제7조 자동갱신; 제7조 자동갱신; 제6조 자동갱신; 제6조 자동갱신; 제6조 자동갱신; 제6조 자동갱신; 제5조 자동갱신; 제5조 자동갱신
+Q019,contract_review,contract_19.pdf,CON-19,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,0.75,1.0,0.8571,HIGH,High,4,True,,3. 위험 등급; 제4조 데이터영구보관; 제5조 자동갱신; 제6조 과도한경업금지
+Q020,contract_review,contract_20.pdf,CON-20,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,High,3,True,,제11조 재위탁승인; 제11조 재위탁승인; 제9조 재위탁승인
+Q021,contract_review,contract_21.pdf,CON-21,지식재산권 귀속 조건을 요약해줘.,1,1.0,1.0,1.0,HIGH,High,1,True,,제9조 지식재산전면양도
+Q022,contract_review,contract_22.pdf,CON-22,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,High,1,True,,제8조 책임상한
+Q023,contract_review,contract_23.pdf,CON-23,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,1,1.0,1.0,1.0,INFO,High,1,True,,제11조 재위탁승인
+Q024,contract_review,contract_24.pdf,CON-24,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,INFO,High,3,True,,제7조 자동갱신; 제7조 자동갱신; 제6조 자동갱신
+Q025,contract_review,contract_25.pdf,CON-25,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,High,8,True,,제8조 책임상한; 제8조 책임상한; 제11조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한
+Q026,contract_review,contract_01.pdf,CON-01,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,INFO,High,8,True,,제8조 책임상한; 제8조 책임상한; 제11조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한; 제10조 책임상한
+Q027,contract_review,contract_02.pdf,CON-02,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,MEDIUM,High,2,True,,제8조 책임상한; 제8조 책임무제한
+Q028,contract_review,contract_03.pdf,CON-03,자동갱신 또는 장기 해지통보 조건을 찾아줘.,1,1.0,1.0,1.0,INFO,High,8,True,,제7조 자동갱신; 제7조 자동갱신; 제6조 자동갱신; 제6조 자동갱신; 제6조 자동갱신; 제6조 자동갱신; 제5조 자동갱신; 제5조 자동갱신
+Q029,contract_review,contract_04.pdf,CON-04,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,0.75,1.0,0.8571,HIGH,High,4,True,,3. 위험 등급; 제4조 데이터영구보관; 제6조 과도한지체상금; 제7조 일방해지
+Q030,contract_review,contract_05.pdf,CON-05,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,HIGH,High,4,True,,제9조 지식재산전면양도; 제6조 지식재산전면양도; 제6조 지식재산전면양도; 제5조 지식재산전면양도
+Q031,contract_review,contract_06.pdf,CON-06,손해배상 책임에 상한이 있는지 확인해줘.,1,1.0,1.0,1.0,INFO,High,1,True,,제8조 책임상한
+Q032,contract_review,contract_07.pdf,CON-07,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,MEDIUM,High,2,True,,제9조 기존IP보호; 제9조 지식재산전면양도
+Q033,contract_review,contract_08.pdf,CON-08,손해배상 책임에 상한이 있는지 확인해줘.,0,1.0,1.0,1.0,HIGH,High,1,True,,제7조 책임무제한
+Q034,contract_review,contract_09.pdf,CON-09,지식재산권 귀속 조건을 요약해줘.,1,1.0,1.0,1.0,HIGH,High,1,True,,제9조 지식재산전면양도
+Q035,contract_review,contract_10.pdf,CON-10,개인정보 재위탁과 관련된 조항이 있는지 확인해줘.,1,1.0,1.0,1.0,INFO,High,3,True,,제11조 재위탁승인; 제9조 재위탁승인; 제8조 재위탁승인
+Q036,contract_review,contract_11.pdf,CON-11,지식재산권 귀속 조건을 요약해줘.,1,1.0,1.0,1.0,HIGH,High,2,True,,제9조 지식재산전면양도; 제6조 지식재산전면양도
+Q037,contract_review,contract_12.pdf,CON-12,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,0,0.6667,1.0,0.8,HIGH,Medium,3,True,,3. 위험 등급; 제4조 과도한지체상금; 제5조 과도한경업금지
+Q038,contract_review,contract_13.pdf,CON-13,자동갱신 또는 장기 해지통보 조건을 찾아줘.,0,1.0,1.0,1.0,MEDIUM,High,3,True,,제7조 자동갱신; 제6조 자동갱신; 제5조 자동갱신
+Q039,contract_review,contract_14.pdf,CON-14,이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.,1,0.75,1.0,0.8571,HIGH,High,4,True,,제4조 책임무제한; 제6조 준거법불리; 제7조 지식재산전면양도; 3. 위험 등급
+Q040,contract_review,contract_15.pdf,CON-15,지식재산권 귀속 조건을 요약해줘.,0,1.0,1.0,1.0,MEDIUM,High,2,True,,제9조 기존IP보호; 제9조 지식재산전면양도
+Q041,policy_qa,policy_01.pdf,POL-01,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,INFO,High,1,True,,6. 위반조치
+Q042,policy_qa,policy_02.pdf,POL-02,예외승인에 필요한 조건을 찾아줘.,1,1.0,1.0,1.0,INFO,High,1,True,,4. 예외관리
+Q043,policy_qa,policy_03.pdf,POL-03,기록 보관 기준을 알려줘.,1,1.0,1.0,1.0,INFO,High,1,True,,5. 기록관리
+Q044,policy_qa,policy_04.pdf,POL-04,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,INFO,High,1,True,,6. 위반조치
+Q045,policy_qa,policy_05.pdf,POL-05,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,INFO,High,1,True,,6. 위반조치
+Q046,policy_qa,policy_06.pdf,POL-06,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,1,1.0,1.0,1.0,INFO,High,1,True,,3. 주요 기준
+Q047,policy_qa,policy_07.pdf,POL-07,예외승인에 필요한 조건을 찾아줘.,1,1.0,1.0,1.0,INFO,High,2,True,,4. 예외관리; 4. 예외관리
+Q048,policy_qa,policy_08.pdf,POL-08,예외승인에 필요한 조건을 찾아줘.,1,1.0,1.0,1.0,INFO,High,1,True,,4. 예외관리
+Q049,policy_qa,policy_09.pdf,POL-09,예외승인에 필요한 조건을 찾아줘.,0,1.0,1.0,1.0,INFO,High,3,True,,4. 예외관리; 4. 예외관리; 4. 예외관리
+Q050,policy_qa,policy_10.pdf,POL-10,위반 발생 시 처리 절차를 알려줘.,0,1.0,1.0,1.0,INFO,High,1,True,,6. 위반조치
+Q051,policy_qa,policy_11.pdf,POL-11,예외승인에 필요한 조건을 찾아줘.,0,1.0,1.0,1.0,INFO,High,1,True,,4. 예외관리
+Q052,policy_qa,policy_12.pdf,POL-12,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,0,1.0,1.0,1.0,INFO,High,1,True,,3. 주요 기준
+Q053,policy_qa,policy_13.pdf,POL-13,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,0,1.0,1.0,1.0,INFO,High,1,True,,3. 주요 기준
+Q054,policy_qa,policy_14.pdf,POL-14,예외승인에 필요한 조건을 찾아줘.,0,1.0,1.0,1.0,INFO,High,1,True,,4. 예외관리
+Q055,policy_qa,policy_15.pdf,POL-15,예외승인에 필요한 조건을 찾아줘.,0,1.0,1.0,1.0,INFO,High,1,True,,4. 예외관리
+Q056,policy_qa,policy_01.pdf,POL-01,예외승인에 필요한 조건을 찾아줘.,1,1.0,1.0,1.0,INFO,High,1,True,,4. 예외관리
+Q057,policy_qa,policy_02.pdf,POL-02,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,INFO,High,1,True,,6. 위반조치
+Q058,policy_qa,policy_03.pdf,POL-03,이 규정의 핵심 통제 원칙 3가지를 근거와 함께 알려줘.,1,1.0,1.0,1.0,INFO,Medium,1,True,,3. 주요 기준
+Q059,policy_qa,policy_04.pdf,POL-04,기록 보관 기준을 알려줘.,1,1.0,1.0,1.0,INFO,High,1,True,,5. 기록관리
+Q060,policy_qa,policy_05.pdf,POL-05,위반 발생 시 처리 절차를 알려줘.,1,1.0,1.0,1.0,INFO,High,1,True,,6. 위반조치
 Q061,cross_check,multiple,MULTIPLE,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
 Q062,cross_check,multiple,MULTIPLE,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q063,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,LOW,High,2,True,,제11조 재위탁승인; 제11조 재위탁승인
+Q063,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
 Q064,cross_check,multiple,MULTIPLE,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
 Q065,cross_check,multiple,MULTIPLE,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q066,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,LOW,High,2,True,,제11조 재위탁승인; 제11조 재위탁승인
-Q067,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,LOW,High,2,True,,제11조 재위탁승인; 제11조 재위탁승인
-Q068,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,HIGH,High,3,True,,제7조 자동갱신; 제7조 자동갱신; 제7조 지식재산전면양도
-Q069,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,HIGH,High,3,True,,제7조 자동갱신; 제7조 자동갱신; 제7조 지식재산전면양도
-Q070,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,LOW,High,2,True,,제11조 재위탁승인; 제11조 재위탁승인
+Q066,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
+Q067,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
+Q068,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
+Q069,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
+Q070,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
 Q071,cross_check,multiple,MULTIPLE,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
 Q072,cross_check,multiple,MULTIPLE,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
 Q073,cross_check,multiple,MULTIPLE,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q074,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,HIGH,High,3,True,,제7조 자동갱신; 제7조 자동갱신; 제7조 지식재산전면양도
-Q075,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,HIGH,High,3,True,,제7조 자동갱신; 제7조 자동갱신; 제7조 지식재산전면양도
-Q076,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,LOW,High,2,True,,제11조 재위탁승인; 제11조 재위탁승인
-Q077,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,LOW,High,2,True,,제11조 재위탁승인; 제11조 재위탁승인
+Q074,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
+Q075,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
+Q076,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
+Q077,cross_check,multiple,MULTIPLE,계약서의 개인정보 재위탁 조항과 내부 개인정보 규정의 차이를 설명해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
 Q078,cross_check,multiple,MULTIPLE,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
-Q079,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,HIGH,High,3,True,,제7조 자동갱신; 제7조 자동갱신; 제7조 지식재산전면양도
+Q079,cross_check,multiple,MULTIPLE,고위험 조항을 3개 골라 관련 내부 가이드 근거와 함께 비교해줘.,1,1.0,1.0,1.0,INFO,None,0,True,,
 Q080,cross_check,multiple,MULTIPLE,계약서의 보안사고 통지 조항이 내부 보안 가이드와 충돌하는 사례를 찾아줘.,1,1.0,1.0,1.0,INFO,None,0,True,,

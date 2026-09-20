@@ -5,98 +5,98 @@
     "target_document": "contract_01.pdf",
     "top_5_matches": [
       {
-        "id": 273,
-        "document_id": "CON-22",
-        "document_title": "서비스 공급 계약서 22",
+        "id": 654,
+        "document_id": "CON-03",
+        "document_title": "서비스 공급 계약서 03",
         "category": "contract",
-        "section": "제9조 지급기한장기",
+        "section": "제7조 자동갱신",
         "page": 1,
-        "similarity": 0.0941,
-        "content": "제9조 지급기한장기\n검수 완료일로부터 120일 이내에 대금을 지급한다.",
+        "similarity": 0.8097,
+        "content": "제7조 자동갱신\n계약 만료 90일 전 서면 해지 통보가 없으면 동일 조건으로 2년 자동 연장된다.",
         "metadata": {
           "page": 1,
           "category": "contract",
-          "chunk_id": "CON-22-C010",
+          "chunk_id": "CON-03-C008",
           "has_table": false,
-          "section_id": "CON-22-S10",
-          "char_length": 39,
-          "document_title": "서비스 공급 계약서 22"
+          "section_id": "CON-03-S08",
+          "char_length": 54,
+          "document_title": "서비스 공급 계약서 03"
         }
       },
       {
-        "id": 226,
-        "document_id": "CON-18",
-        "document_title": "서비스 공급 계약서 18",
-        "category": "contract",
-        "section": "제10조 재위탁승인",
-        "page": 1,
-        "similarity": 0.0808,
-        "content": "제10조 재위탁승인\n개인정보 처리업무를 재위탁하려는 경우 사전에 발주자의 서면 승인을 받아야 한다.",
-        "metadata": {
-          "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-18-C011",
-          "has_table": false,
-          "section_id": "CON-18-S11",
-          "char_length": 55,
-          "document_title": "서비스 공급 계약서 18"
-        }
-      },
-      {
-        "id": 123,
-        "document_id": "CON-10",
-        "document_title": "서비스 공급 계약서 10",
-        "category": "contract",
-        "section": "제10조 재위탁승인",
-        "page": 1,
-        "similarity": 0.0808,
-        "content": "제10조 재위탁승인\n개인정보 처리업무를 재위탁하려는 경우 사전에 발주자의 서면 승인을 받아야 한다.",
-        "metadata": {
-          "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-10-C011",
-          "has_table": false,
-          "section_id": "CON-10-S11",
-          "char_length": 55,
-          "document_title": "서비스 공급 계약서 10"
-        }
-      },
-      {
-        "id": 85,
+        "id": 704,
         "document_id": "CON-07",
         "document_title": "서비스 공급 계약서 07",
         "category": "contract",
-        "section": "제10조 재위탁승인",
+        "section": "제7조 자동갱신",
         "page": 1,
-        "similarity": 0.0808,
-        "content": "제10조 재위탁승인\n개인정보 처리업무를 재위탁하려는 경우 사전에 발주자의 서면 승인을 받아야 한다.",
+        "similarity": 0.8097,
+        "content": "제7조 자동갱신\n계약 만료 90일 전 서면 해지 통보가 없으면 동일 조건으로 2년 자동 연장된다.",
         "metadata": {
           "page": 1,
           "category": "contract",
-          "chunk_id": "CON-07-C011",
+          "chunk_id": "CON-07-C008",
           "has_table": false,
-          "section_id": "CON-07-S11",
-          "char_length": 55,
+          "section_id": "CON-07-S08",
+          "char_length": 54,
           "document_title": "서비스 공급 계약서 07"
         }
       },
       {
-        "id": 315,
-        "document_id": "CON-25",
-        "document_title": "서비스 공급 계약서 25",
+        "id": 640,
+        "document_id": "CON-02",
+        "document_title": "서비스 공급 계약서 02",
         "category": "contract",
-        "section": "제10조 재위탁승인",
+        "section": "제6조 자동갱신",
         "page": 1,
-        "similarity": 0.0808,
-        "content": "제10조 재위탁승인\n개인정보 처리업무를 재위탁하려는 경우 사전에 발주자의 서면 승인을 받아야 한다.",
+        "similarity": 0.8053,
+        "content": "제6조 자동갱신\n계약 만료 90일 전 서면 해지 통보가 없으면 동일 조건으로 2년 자동 연장된다.",
         "metadata": {
           "page": 1,
           "category": "contract",
-          "chunk_id": "CON-25-C011",
+          "chunk_id": "CON-02-C007",
           "has_table": false,
-          "section_id": "CON-25-S11",
-          "char_length": 55,
-          "document_title": "서비스 공급 계약서 25"
+          "section_id": "CON-02-S07",
+          "char_length": 54,
+          "document_title": "서비스 공급 계약서 02"
+        }
+      },
+      {
+        "id": 679,
+        "document_id": "CON-05",
+        "document_title": "서비스 공급 계약서 05",
+        "category": "contract",
+        "section": "제6조 자동갱신",
+        "page": 1,
+        "similarity": 0.8053,
+        "content": "제6조 자동갱신\n계약 만료 90일 전 서면 해지 통보가 없으면 동일 조건으로 2년 자동 연장된다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-05-C007",
+          "has_table": false,
+          "section_id": "CON-05-S07",
+          "char_length": 54,
+          "document_title": "서비스 공급 계약서 05"
+        }
+      },
+      {
+        "id": 741,
+        "document_id": "CON-10",
+        "document_title": "서비스 공급 계약서 10",
+        "category": "contract",
+        "section": "제6조 자동갱신",
+        "page": 1,
+        "similarity": 0.8053,
+        "content": "제6조 자동갱신\n계약 만료 90일 전 서면 해지 통보가 없으면 동일 조건으로 2년 자동 연장된다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-10-C007",
+          "has_table": false,
+          "section_id": "CON-10-S07",
+          "char_length": 54,
+          "document_title": "서비스 공급 계약서 10"
         }
       }
     ]
@@ -107,13 +107,217 @@
     "target_document": "contract_02.pdf",
     "top_5_matches": [
       {
-        "id": 533,
+        "id": 911,
+        "document_id": "CON-23",
+        "document_title": "서비스 공급 계약서 23",
+        "category": "contract",
+        "section": "제11조 재위탁승인",
+        "page": 1,
+        "similarity": 0.8297,
+        "content": "제11조 재위탁승인\n개인정보 처리업무를 재위탁하려는 경우 사전에 발주자의 서면 승인을 받아야 한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-23-C012",
+          "has_table": false,
+          "section_id": "CON-23-S12",
+          "char_length": 55,
+          "document_title": "서비스 공급 계약서 23"
+        }
+      },
+      {
+        "id": 924,
+        "document_id": "CON-24",
+        "document_title": "서비스 공급 계약서 24",
+        "category": "contract",
+        "section": "제11조 재위탁승인",
+        "page": 1,
+        "similarity": 0.8297,
+        "content": "제11조 재위탁승인\n개인정보 처리업무를 재위탁하려는 경우 사전에 발주자의 서면 승인을 받아야 한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-24-C012",
+          "has_table": false,
+          "section_id": "CON-24-S12",
+          "char_length": 55,
+          "document_title": "서비스 공급 계약서 24"
+        }
+      },
+      {
+        "id": 834,
+        "document_id": "CON-17",
+        "document_title": "서비스 공급 계약서 17",
+        "category": "contract",
+        "section": "제9조 재위탁승인",
+        "page": 1,
+        "similarity": 0.8202,
+        "content": "제9조 재위탁승인\n개인정보 처리업무를 재위탁하려는 경우 사전에 발주자의 서면 승인을 받아야 한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-17-C010",
+          "has_table": false,
+          "section_id": "CON-17-S10",
+          "char_length": 54,
+          "document_title": "서비스 공급 계약서 17"
+        }
+      },
+      {
+        "id": 669,
+        "document_id": "CON-04",
+        "document_title": "서비스 공급 계약서 04",
+        "category": "contract",
+        "section": "제8조 재위탁승인",
+        "page": 1,
+        "similarity": 0.8183,
+        "content": "제8조 재위탁승인\n개인정보 처리업무를 재위탁하려는 경우 사전에 발주자의 서면 승인을 받아야 한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-04-C009",
+          "has_table": false,
+          "section_id": "CON-04-S09",
+          "char_length": 54,
+          "document_title": "서비스 공급 계약서 04"
+        }
+      },
+      {
+        "id": 745,
+        "document_id": "CON-10",
+        "document_title": "서비스 공급 계약서 10",
+        "category": "contract",
+        "section": "제10조 재위탁승인",
+        "page": 1,
+        "similarity": 0.8175,
+        "content": "제10조 재위탁승인\n개인정보 처리업무를 재위탁하려는 경우 사전에 발주자의 서면 승인을 받아야 한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-10-C011",
+          "has_table": false,
+          "section_id": "CON-10-S11",
+          "char_length": 55,
+          "document_title": "서비스 공급 계약서 10"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "Q003",
+    "question": "손해배상 책임에 상한이 있는지 확인해줘.",
+    "target_document": "contract_03.pdf",
+    "top_5_matches": [
+      {
+        "id": 694,
+        "document_id": "CON-06",
+        "document_title": "서비스 공급 계약서 06",
+        "category": "contract",
+        "section": "제8조 책임상한",
+        "page": 1,
+        "similarity": 0.7747,
+        "content": "제8조 책임상한\n당사자의 손해배상 책임은 최근 12개월간 지급된 계약대금 총액을 한도로 한다. 단, 고의 또는 중대한 과실은 제외한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-06-C009",
+          "has_table": false,
+          "section_id": "CON-06-S09",
+          "char_length": 75,
+          "document_title": "서비스 공급 계약서 06"
+        }
+      },
+      {
+        "id": 858,
+        "document_id": "CON-19",
+        "document_title": "서비스 공급 계약서 19",
+        "category": "contract",
+        "section": "제8조 책임상한",
+        "page": 1,
+        "similarity": 0.7747,
+        "content": "제8조 책임상한\n당사자의 손해배상 책임은 최근 12개월간 지급된 계약대금 총액을 한도로 한다. 단, 고의 또는 중대한 과실은 제외한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-19-C009",
+          "has_table": false,
+          "section_id": "CON-19-S09",
+          "char_length": 75,
+          "document_title": "서비스 공급 계약서 19"
+        }
+      },
+      {
+        "id": 823,
+        "document_id": "CON-16",
+        "document_title": "서비스 공급 계약서 16",
+        "category": "contract",
+        "section": "제11조 책임상한",
+        "page": 1,
+        "similarity": 0.7744,
+        "content": "제11조 책임상한\n당사자의 손해배상 책임은 최근 12개월간 지급된 계약대금 총액을 한도로 한다. 단, 고의 또는 중대한 과실은 제외한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-16-C012",
+          "has_table": false,
+          "section_id": "CON-16-S12",
+          "char_length": 76,
+          "document_title": "서비스 공급 계약서 16"
+        }
+      },
+      {
+        "id": 657,
+        "document_id": "CON-03",
+        "document_title": "서비스 공급 계약서 03",
+        "category": "contract",
+        "section": "제10조 책임상한",
+        "page": 1,
+        "similarity": 0.7733,
+        "content": "제10조 책임상한\n당사자의 손해배상 책임은 최근 12개월간 지급된 계약대금 총액을 한도로 한다. 단, 고의 또는 중대한 과실은 제외한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-03-C011",
+          "has_table": false,
+          "section_id": "CON-03-S11",
+          "char_length": 76,
+          "document_title": "서비스 공급 계약서 03"
+        }
+      },
+      {
+        "id": 772,
+        "document_id": "CON-12",
+        "document_title": "서비스 공급 계약서 12",
+        "category": "contract",
+        "section": "제10조 책임상한",
+        "page": 1,
+        "similarity": 0.7733,
+        "content": "제10조 책임상한\n당사자의 손해배상 책임은 최근 12개월간 지급된 계약대금 총액을 한도로 한다. 단, 고의 또는 중대한 과실은 제외한다.",
+        "metadata": {
+          "page": 1,
+          "category": "contract",
+          "chunk_id": "CON-12-C011",
+          "has_table": false,
+          "section_id": "CON-12-S11",
+          "char_length": 76,
+          "document_title": "서비스 공급 계약서 12"
+        }
+      }
+    ]
+  },
+  {
+    "question_id": "Q004",
+    "question": "이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.",
+    "target_document": "contract_04.pdf",
+    "top_5_matches": [
+      {
+        "id": 1155,
         "document_id": "GUI-03",
         "document_title": "계약 리스크 검토 가이드 03",
         "category": "guide",
         "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.1097,
+        "similarity": 0.7945,
         "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
@@ -126,13 +330,13 @@
         }
       },
       {
-        "id": 539,
+        "id": 1161,
         "document_id": "GUI-04",
         "document_title": "계약 리스크 검토 가이드 04",
         "category": "guide",
         "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.1097,
+        "similarity": 0.7945,
         "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
@@ -145,13 +349,13 @@
         }
       },
       {
-        "id": 521,
+        "id": 1143,
         "document_id": "GUI-01",
         "document_title": "계약 리스크 검토 가이드 01",
         "category": "guide",
         "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.1097,
+        "similarity": 0.7945,
         "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
@@ -164,13 +368,13 @@
         }
       },
       {
-        "id": 527,
+        "id": 1149,
         "document_id": "GUI-02",
         "document_title": "계약 리스크 검토 가이드 02",
         "category": "guide",
         "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.1097,
+        "similarity": 0.7945,
         "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
@@ -183,226 +387,22 @@
         }
       },
       {
-        "id": 557,
-        "document_id": "GUI-07",
-        "document_title": "계약 리스크 검토 가이드 07",
+        "id": 1167,
+        "document_id": "GUI-05",
+        "document_title": "계약 리스크 검토 가이드 05",
         "category": "guide",
         "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.1097,
+        "similarity": 0.7945,
         "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
           "category": "guide",
-          "chunk_id": "GUI-07-C004",
+          "chunk_id": "GUI-05-C004",
           "has_table": false,
-          "section_id": "GUI-07-S04",
+          "section_id": "GUI-05-S04",
           "char_length": 71,
-          "document_title": "계약 리스크 검토 가이드 07"
-        }
-      }
-    ]
-  },
-  {
-    "question_id": "Q003",
-    "question": "손해배상 책임에 상한이 있는지 확인해줘.",
-    "target_document": "contract_03.pdf",
-    "top_5_matches": [
-      {
-        "id": 502,
-        "document_id": "SEC-09",
-        "document_title": "정보보안 가이드 09",
-        "category": "security",
-        "section": "[문서 서두]",
-        "page": 1,
-        "similarity": 0.0957,
-        "content": "[문서 서두]\n정보보안 가이드 09\nSEC-09",
-        "metadata": {
-          "page": 1,
-          "category": "security",
-          "chunk_id": "SEC-09-C001",
-          "has_table": false,
-          "section_id": "SEC-09-S01",
-          "char_length": 26,
-          "document_title": "정보보안 가이드 09"
-        }
-      },
-      {
-        "id": 276,
-        "document_id": "CON-22",
-        "document_title": "서비스 공급 계약서 22",
-        "category": "contract",
-        "section": "제12조 보안통지",
-        "page": 1,
-        "similarity": 0.09,
-        "content": "제12조 보안통지\n보안사고를 인지한 경우 24시간 이내에 상대방에게 통지하고 대응 현황을 공유한다.",
-        "metadata": {
-          "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-22-C013",
-          "has_table": false,
-          "section_id": "CON-22-S13",
-          "char_length": 55,
-          "document_title": "서비스 공급 계약서 22"
-        }
-      },
-      {
-        "id": 444,
-        "document_id": "SEC-01",
-        "document_title": "정보보안 가이드 01",
-        "category": "security",
-        "section": "6. 데이터",
-        "page": 1,
-        "similarity": 0.0762,
-        "content": "6. 데이터\n민감정보는 저장 및 전송 구간에서 암호화하고 불필요한 사본을 남기지 않는다.",
-        "metadata": {
-          "page": 1,
-          "category": "security",
-          "chunk_id": "SEC-01-C007",
-          "has_table": false,
-          "section_id": "SEC-01-S07",
-          "char_length": 49,
-          "document_title": "정보보안 가이드 01"
-        }
-      },
-      {
-        "id": 452,
-        "document_id": "SEC-02",
-        "document_title": "정보보안 가이드 02",
-        "category": "security",
-        "section": "6. 데이터",
-        "page": 1,
-        "similarity": 0.0762,
-        "content": "6. 데이터\n민감정보는 저장 및 전송 구간에서 암호화하고 불필요한 사본을 남기지 않는다.",
-        "metadata": {
-          "page": 1,
-          "category": "security",
-          "chunk_id": "SEC-02-C007",
-          "has_table": false,
-          "section_id": "SEC-02-S07",
-          "char_length": 49,
-          "document_title": "정보보안 가이드 02"
-        }
-      },
-      {
-        "id": 460,
-        "document_id": "SEC-03",
-        "document_title": "정보보안 가이드 03",
-        "category": "security",
-        "section": "6. 데이터",
-        "page": 1,
-        "similarity": 0.0762,
-        "content": "6. 데이터\n민감정보는 저장 및 전송 구간에서 암호화하고 불필요한 사본을 남기지 않는다.",
-        "metadata": {
-          "page": 1,
-          "category": "security",
-          "chunk_id": "SEC-03-C007",
-          "has_table": false,
-          "section_id": "SEC-03-S07",
-          "char_length": 49,
-          "document_title": "정보보안 가이드 03"
-        }
-      }
-    ]
-  },
-  {
-    "question_id": "Q004",
-    "question": "이 계약서의 가장 높은 위험 조항은 무엇이며 근거를 제시해줘.",
-    "target_document": "contract_04.pdf",
-    "top_5_matches": [
-      {
-        "id": 64,
-        "document_id": "CON-06",
-        "document_title": "서비스 공급 계약서 06",
-        "category": "contract",
-        "section": "[문서 서두]",
-        "page": 1,
-        "similarity": 0.0859,
-        "content": "[문서 서두]\n서비스 공급 계약서 06\n공급자: 네오팩토리AI | 발주자: 세림모터스 | 교육용 합성 계약서",
-        "metadata": {
-          "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-06-C001",
-          "has_table": false,
-          "section_id": "CON-06-S01",
-          "char_length": 60,
-          "document_title": "서비스 공급 계약서 06"
-        }
-      },
-      {
-        "id": 128,
-        "document_id": "CON-11",
-        "document_title": "서비스 공급 계약서 11",
-        "category": "contract",
-        "section": "제1조 목적",
-        "page": 1,
-        "similarity": 0.0819,
-        "content": "제1조 목적\n본 계약은 로보링크가 대한로지스에게 AI 기반 업무지원 서비스를 제공함에 필요한 권리와 의무를 정함을 목적으로 한다.",
-        "metadata": {
-          "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-11-C002",
-          "has_table": false,
-          "section_id": "CON-11-S02",
-          "char_length": 72,
-          "document_title": "서비스 공급 계약서 11"
-        }
-      },
-      {
-        "id": 88,
-        "document_id": "CON-08",
-        "document_title": "서비스 공급 계약서 08",
-        "category": "contract",
-        "section": "[문서 서두]",
-        "page": 1,
-        "similarity": 0.0741,
-        "content": "[문서 서두]\n서비스 공급 계약서 08\n공급자: 메디데이터 | 발주자: 한빛전자 | 교육용 합성 계약서",
-        "metadata": {
-          "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-08-C001",
-          "has_table": false,
-          "section_id": "CON-08-S01",
-          "char_length": 57,
-          "document_title": "서비스 공급 계약서 08"
-        }
-      },
-      {
-        "id": 158,
-        "document_id": "CON-13",
-        "document_title": "서비스 공급 계약서 13",
-        "category": "contract",
-        "section": "제6조 검수기준불명확",
-        "page": 1,
-        "similarity": 0.0715,
-        "content": "제6조 검수기준불명확\n검수는 발주자의 내부 기준에 따라 진행하며 세부 기준은 별도로 공개하지 않는다.",
-        "metadata": {
-          "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-13-C007",
-          "has_table": false,
-          "section_id": "CON-13-S07",
-          "char_length": 56,
-          "document_title": "서비스 공급 계약서 13"
-        }
-      },
-      {
-        "id": 196,
-        "document_id": "CON-16",
-        "document_title": "서비스 공급 계약서 16",
-        "category": "contract",
-        "section": "제6조 검수기준불명확",
-        "page": 1,
-        "similarity": 0.0715,
-        "content": "제6조 검수기준불명확\n검수는 발주자의 내부 기준에 따라 진행하며 세부 기준은 별도로 공개하지 않는다.",
-        "metadata": {
-          "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-16-C007",
-          "has_table": false,
-          "section_id": "CON-16-S07",
-          "char_length": 56,
-          "document_title": "서비스 공급 계약서 16"
+          "document_title": "계약 리스크 검토 가이드 05"
         }
       }
     ]
@@ -413,98 +413,98 @@
     "target_document": "contract_05.pdf",
     "top_5_matches": [
       {
-        "id": 64,
-        "document_id": "CON-06",
-        "document_title": "서비스 공급 계약서 06",
-        "category": "contract",
-        "section": "[문서 서두]",
+        "id": 1155,
+        "document_id": "GUI-03",
+        "document_title": "계약 리스크 검토 가이드 03",
+        "category": "guide",
+        "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.0859,
-        "content": "[문서 서두]\n서비스 공급 계약서 06\n공급자: 네오팩토리AI | 발주자: 세림모터스 | 교육용 합성 계약서",
+        "similarity": 0.7945,
+        "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-06-C001",
+          "category": "guide",
+          "chunk_id": "GUI-03-C004",
           "has_table": false,
-          "section_id": "CON-06-S01",
-          "char_length": 60,
-          "document_title": "서비스 공급 계약서 06"
+          "section_id": "GUI-03-S04",
+          "char_length": 71,
+          "document_title": "계약 리스크 검토 가이드 03"
         }
       },
       {
-        "id": 128,
-        "document_id": "CON-11",
-        "document_title": "서비스 공급 계약서 11",
-        "category": "contract",
-        "section": "제1조 목적",
+        "id": 1161,
+        "document_id": "GUI-04",
+        "document_title": "계약 리스크 검토 가이드 04",
+        "category": "guide",
+        "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.0819,
-        "content": "제1조 목적\n본 계약은 로보링크가 대한로지스에게 AI 기반 업무지원 서비스를 제공함에 필요한 권리와 의무를 정함을 목적으로 한다.",
+        "similarity": 0.7945,
+        "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-11-C002",
+          "category": "guide",
+          "chunk_id": "GUI-04-C004",
           "has_table": false,
-          "section_id": "CON-11-S02",
-          "char_length": 72,
-          "document_title": "서비스 공급 계약서 11"
+          "section_id": "GUI-04-S04",
+          "char_length": 71,
+          "document_title": "계약 리스크 검토 가이드 04"
         }
       },
       {
-        "id": 88,
-        "document_id": "CON-08",
-        "document_title": "서비스 공급 계약서 08",
-        "category": "contract",
-        "section": "[문서 서두]",
+        "id": 1143,
+        "document_id": "GUI-01",
+        "document_title": "계약 리스크 검토 가이드 01",
+        "category": "guide",
+        "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.0741,
-        "content": "[문서 서두]\n서비스 공급 계약서 08\n공급자: 메디데이터 | 발주자: 한빛전자 | 교육용 합성 계약서",
+        "similarity": 0.7945,
+        "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-08-C001",
+          "category": "guide",
+          "chunk_id": "GUI-01-C004",
           "has_table": false,
-          "section_id": "CON-08-S01",
-          "char_length": 57,
-          "document_title": "서비스 공급 계약서 08"
+          "section_id": "GUI-01-S04",
+          "char_length": 71,
+          "document_title": "계약 리스크 검토 가이드 01"
         }
       },
       {
-        "id": 158,
-        "document_id": "CON-13",
-        "document_title": "서비스 공급 계약서 13",
-        "category": "contract",
-        "section": "제6조 검수기준불명확",
+        "id": 1149,
+        "document_id": "GUI-02",
+        "document_title": "계약 리스크 검토 가이드 02",
+        "category": "guide",
+        "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.0715,
-        "content": "제6조 검수기준불명확\n검수는 발주자의 내부 기준에 따라 진행하며 세부 기준은 별도로 공개하지 않는다.",
+        "similarity": 0.7945,
+        "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-13-C007",
+          "category": "guide",
+          "chunk_id": "GUI-02-C004",
           "has_table": false,
-          "section_id": "CON-13-S07",
-          "char_length": 56,
-          "document_title": "서비스 공급 계약서 13"
+          "section_id": "GUI-02-S04",
+          "char_length": 71,
+          "document_title": "계약 리스크 검토 가이드 02"
         }
       },
       {
-        "id": 196,
-        "document_id": "CON-16",
-        "document_title": "서비스 공급 계약서 16",
-        "category": "contract",
-        "section": "제6조 검수기준불명확",
+        "id": 1167,
+        "document_id": "GUI-05",
+        "document_title": "계약 리스크 검토 가이드 05",
+        "category": "guide",
+        "section": "3. 위험 등급",
         "page": 1,
-        "similarity": 0.0715,
-        "content": "제6조 검수기준불명확\n검수는 발주자의 내부 기준에 따라 진행하며 세부 기준은 별도로 공개하지 않는다.",
+        "similarity": 0.7945,
+        "content": "3. 위험 등급\nHigh는 즉시 확인이 필요한 조항, Medium은 조건 확인 또는 수정 검토, Low는 통상 조항을 의미한다.",
         "metadata": {
           "page": 1,
-          "category": "contract",
-          "chunk_id": "CON-16-C007",
+          "category": "guide",
+          "chunk_id": "GUI-05-C004",
           "has_table": false,
-          "section_id": "CON-16-S07",
-          "char_length": 56,
-          "document_title": "서비스 공급 계약서 16"
+          "section_id": "GUI-05-S04",
+          "char_length": 71,
+          "document_title": "계약 리스크 검토 가이드 05"
         }
       }
     ]

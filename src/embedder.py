@@ -28,10 +28,10 @@ def load_embedding_config() -> dict[str, Any]:
         with open(CONFIG_PATH, "r", encoding="utf-8") as f:
             cfg = json.load(f)
             return {
-                "model": cfg.get("embedding_model", "text-embedding-004"),
+                "model": cfg.get("embedding_model", "gemini-embedding-2"),
                 "dimension": cfg.get("embedding_dimension", 768),
             }
-    return {"model": "text-embedding-004", "dimension": 768}
+    return {"model": "gemini-embedding-2", "dimension": 768}
 
 
 def _generate_deterministic_mock_embedding(text: str, dimension: int = 768) -> list[float]:
@@ -66,54 +66,52 @@ class GeminiEmbedder:
         else:
             logger.warning("GEMINI_API_KEY is not set or mock mode is active. Operating in deterministic fallback mode.")
 
-    def embed_texts(self, texts: list[str], max_retries: int = 3) -> list[list[float]]:
-        """Generates 768-dimensional embeddings for a list of texts with retry and fallback handling."""
+    def _embed_single_with_retry(self, text: str, max_retries: int = 3) -> list[float]:
+        """Embeds a single string with retry and fallback."""
+        clean_text = text.strip() or " "
+        if not self.client:
+            return _generate_deterministic_mock_embedding(clean_text, self.dimension)
+
+        for attempt in range(1, max_retries + 1):
+            try:
+                res = self.client.models.embed_content(
+                    model=self.model_name,
+                    contents=clean_text,
+                    config={"output_dimensionality": self.dimension},
+                )
+                if hasattr(res, "embeddings") and res.embeddings:
+                    values = res.embeddings[0].values
+                elif hasattr(res, "embedding") and res.embedding:
+                    values = res.embedding.values
+                else:
+                    raise ValueError(f"Unexpected response structure: {res}")
+
+                if len(values) != self.dimension:
+                    values = values[:self.dimension] + [0.0] * max(0, self.dimension - len(values))
+                return values
+            except Exception as e:
+                err_str = str(e).lower()
+                is_rate_limit = "429" in err_str or "quota" in err_str or "resource_exhausted" in err_str
+                is_timeout = "timeout" in err_str or "timed out" in err_str or "deadline" in err_str
+                if attempt < max_retries and (is_rate_limit or is_timeout):
+                    time.sleep(2 ** attempt)
+                else:
+                    logger.warning("Single embed failed (%s). Falling back.", e)
+                    return _generate_deterministic_mock_embedding(clean_text, self.dimension)
+
+        return _generate_deterministic_mock_embedding(clean_text, self.dimension)
+
+    def embed_texts(self, texts: list[str], max_workers: int = 10) -> list[list[float]]:
+        """Generates 768-dimensional embeddings for a list of texts in parallel."""
         if not texts:
             return []
 
-        if self.client:
-            for attempt in range(1, max_retries + 1):
-                try:
-                    embeddings = []
-                    for text in texts:
-                        clean_text = text.strip() or " "
-                        res = self.client.models.embed_content(
-                            model=self.model_name,
-                            contents=clean_text,
-                            config={"output_dimensionality": self.dimension},
-                        )
-                        values = res.embedding.values
-                        if len(values) != self.dimension:
-                            logger.warning(
-                                "Dimension mismatch from API (%d != %d). Adjusting.",
-                                len(values),
-                                self.dimension,
-                            )
-                            values = values[:self.dimension] + [0.0] * max(0, self.dimension - len(values))
-                        embeddings.append(values)
-                    return embeddings
-                except Exception as e:
-                    err_str = str(e).lower()
-                    is_rate_limit = "429" in err_str or "quota" in err_str or "resource_exhausted" in err_str
-                    is_timeout = "timeout" in err_str or "timed out" in err_str or "deadline" in err_str
-                    
-                    logger.warning(
-                        "[Attempt %d/%d] Embedding API error (%s).",
-                        attempt,
-                        max_retries,
-                        e,
-                    )
-                    if attempt < max_retries and (is_rate_limit or is_timeout):
-                        backoff = 2 ** attempt
-                        logger.info("Applying exponential backoff: sleeping %ds before retry...", backoff)
-                        time.sleep(backoff)
-                    else:
-                        logger.error("All %d retries failed or non-retryable error. Falling back to deterministic embedding.", max_retries)
-                        break
+        from concurrent.futures import ThreadPoolExecutor
 
-        # Deterministic fallback
-        return [_generate_deterministic_mock_embedding(t, self.dimension) for t in texts]
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            embeddings = list(executor.map(self._embed_single_with_retry, texts))
+        return embeddings
 
     def embed_single(self, text: str) -> list[float]:
         """Embeds a single text string."""
-        return self.embed_texts([text])[0]
+        return self._embed_single_with_retry(text)
